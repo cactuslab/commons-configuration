@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>commons-configuration</groupId>
   <artifactId>commons-configuration</artifactId>
-  <version>1.10</version>
+  <version>2.0</version>
   <name>Apache Commons Configuration</name>
 
   <inceptionYear>2001</inceptionYear>
@@ -290,9 +290,9 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <version>2.4</version>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.0.0</version>
       <scope>provided</scope>
     </dependency>
 
@@ -386,9 +386,9 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
-      <version>1.4</version>
+      <groupId>jakarta.mail</groupId>
+      <artifactId>jakarta.mail-api</artifactId>
+      <version>2.1.2</version>
       <scope>test</scope>
     </dependency>
 
@@ -426,8 +426,8 @@
     <commons.release.version>1.10</commons.release.version>
     <commons.rc.version>RC1</commons.rc.version>
     <commons.jira.id>CONFIGURATION</commons.jira.id>
-    <maven.compiler.source>1.5</maven.compiler.source>
-    <maven.compiler.target>1.5</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
 
     <!-- Explicitly declare optional dependencies for the OSGi manifest. -->
     <commons.osgi.import>
@@ -437,7 +437,7 @@
       org.apache.commons.codec.*;resolution:=optional,
       org.apache.commons.jxpath.*;resolution:=optional,
       org.apache.xml.resolver.*;resolution:=optional,
-      javax.servlet.*;resolution:=optional,
+      jakarta.servlet.*;resolution:=optional,
       org.apache.commons.jexl2.*;resolution:=optional,
       org.apache.commons.vfs2.*;resolution:=optional,
       *

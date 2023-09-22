@@ -20,8 +20,8 @@ package org.apache.commons.configuration.web;
 import java.util.Enumeration;
 import java.util.Properties;
 
-import javax.servlet.FilterConfig;
-import javax.servlet.ServletContext;
+import jakarta.servlet.FilterConfig;
+import jakarta.servlet.ServletContext;
 
 import org.apache.commons.configuration.AbstractConfiguration;
 import org.apache.commons.configuration.TestAbstractConfiguration;

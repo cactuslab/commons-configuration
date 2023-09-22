@@ -20,10 +20,10 @@ package org.apache.commons.configuration.web;
 import java.util.Enumeration;
 import java.util.Properties;
 
-import javax.servlet.Servlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServlet;
+import jakarta.servlet.Servlet;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServlet;
 
 import org.apache.commons.configuration.AbstractConfiguration;
 import org.apache.commons.configuration.TestAbstractConfiguration;
